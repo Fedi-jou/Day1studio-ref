@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import { MdArrowForward, MdKeyboardArrowRight } from "react-icons/md";
 
 export const Herocontainer = styled.div`
@@ -88,7 +89,9 @@ export const Herobtnwrapper = styled.div`
   flex-direction: column;
   align-items: center;
 `;
-
+export const Btnwrapper = styled(Link)`
+  text-decoration: none;
+`;
 export const ArrowForward = styled(MdArrowForward)`
   margin-left: 8px;
   font-size: 20px;
