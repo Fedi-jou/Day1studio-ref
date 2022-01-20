@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Typeeffect from "../typeeffect/Typeeffect";
-import { Link } from "react-router-dom";
 import {
   Herocontainer,
   Herobg,
@@ -9,13 +8,12 @@ import {
   Heroh1,
   HeroP,
   Herobtnwrapper,
+  Btnwrapper,
   ArrowForward,
   ArrowRight,
 } from "./Landingpage_style";
 import video from "../../video/video1.mp4";
 import { Button_main } from "../../Globalstyle";
-// import Text from "../Text/Text";
-// import "../Text/Text.css";
 
 const Hero = () => {
   const [hover, setHover] = useState(false);
@@ -34,7 +32,7 @@ const Hero = () => {
         <HeroP>Video games as never seen before</HeroP>
 
         <Herobtnwrapper>
-          <Link to="/about">
+          <Btnwrapper to="/about">
             <Button_main
               to="/about"
               onMouseEnter={onHover}
@@ -42,7 +40,7 @@ const Hero = () => {
             >
               About us {hover ? <ArrowForward /> : <ArrowRight />}
             </Button_main>
-          </Link>
+          </Btnwrapper>
         </Herobtnwrapper>
       </Herocontent>
     </Herocontainer>
