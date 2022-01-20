@@ -39,7 +39,7 @@ const Navbar = () => {
           <NavLogo to="/" onClick={handleClick}>
             <img src={logo} alt="logo" />
           </NavLogo>
-          <MobileIcon onClick={closeMobileMenu}>
+          <MobileIcon onClick={closeMobileMenu} click={click}>
             {click ? <FaTimes /> : <FaBars />}
           </MobileIcon>
           <NavMenu onClick={handleClick} click={click}>

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../assets/images/logo-footer.png";
 import { Button } from "../../Globalstyle";
 import {
   FaFacebook,
@@ -73,9 +73,7 @@ function Footer() {
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to="/">
-            <image>
-              <img src={Logo} alt="logo" />
-            </image>
+            <img src={Logo} alt="logo" />
           </SocialLogo>
           <WebsiteRights>
             Day 1 Studio © {new Date().getFullYear()} All Rights Reserved
