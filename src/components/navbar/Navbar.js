@@ -36,10 +36,10 @@ const Navbar = () => {
     <IconContext.Provider value={{ color: "#fff" }}>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/" onClick={handleClick}>
+          <NavLogo to="/" onClick={closeMobileMenu}>
             <img src={logo} alt="logo" />
           </NavLogo>
-          <MobileIcon onClick={closeMobileMenu} click={click}>
+          <MobileIcon onClick={handleClick}>
             {click ? <FaTimes /> : <FaBars />}
           </MobileIcon>
           <NavMenu onClick={handleClick} click={click}>
@@ -69,7 +69,7 @@ const Navbar = () => {
                   <Button primary>Contact Us</Button>
                 </NavBtnLink>
               ) : (
-                <NavBtnLink to="/sign-up">
+                <NavBtnLink to="/contact">
                   <Button onClick={closeMobileMenu} fontBig primary>
                     Contact Us
                   </Button>

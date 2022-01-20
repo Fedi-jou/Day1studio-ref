@@ -134,6 +134,7 @@ p {
 
 @media (max-width: 991px) {
   .contact1 {
+    min-height: 100vh;
     padding: 50px;
   }
   .container {
