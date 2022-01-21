@@ -39,19 +39,29 @@ export const Gamescard = styled.div`
     transition: all 0.3s ease-in-out;
     cursor: pointer;
   }
+  @media screen and (max-width: 320px) {
+    width: 80vw;
+  }
 `;
 
 export const Gamesicon = styled.img`
   height: 300px;
   width: 260px;
-  object-fit: fill;
+  object-fit: fit;
   margin-bottom: 10px;
+  @media screen and (max-width: 320px) {
+    width: 90%;
+    object-fit: cover;
+  }
 `;
 
 export const Gamesh1 = styled.h1`
   font-size: 2.5rem;
   color: #fff;
   margin-bottom: 64px;
+  @media screen and (max-width: 320px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const Gamesh2 = styled.h2`
