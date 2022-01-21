@@ -10,18 +10,16 @@ import {
   Gamescard,
   Gamesicon,
   Gamesh2,
-  Gamesp,
 } from "./Games_style";
 
 const Games = () => {
   return (
-    <Gamescontainer id="ourGames">
+    <Gamescontainer>
       <Gamesh1>Our Games</Gamesh1>
       <Gameswrapper>
         <Gamescard>
           <Gamesicon src={icon1} />
           <Gamesh2>Mea</Gamesh2>
-          {/* <Gamesp>we help you always </Gamesp> */}
         </Gamescard>
         <Gamescard>
           <Gamesicon src={icon2} />
