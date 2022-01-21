@@ -27,6 +27,9 @@ export const PricingHeading = styled.h1`
   color: #fff;
   font-size: 48px;
   margin-bottom: 24px;
+  @media screen and (max-width: 356px) {
+    font-size: 25px;
+  }
 `;
 
 export const PricingContainer = styled.div`
@@ -87,15 +90,27 @@ export const PricingCardIcon = styled.div`
 export const PricingCardPlan = styled.h3`
   margin-bottom: 5px;
   font-size: 24px;
+  @media screen and (max-width: 350px) {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
 `;
 
 export const PricingCardCost = styled.h4`
   font-size: 40px;
+  @media screen and (max-width: 350px) {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
 `;
 
 export const PricingCardLength = styled.p`
   font-size: 14px;
   margin-bottom: 24px;
+  @media screen and (max-width: 350px) {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
 `;
 
 export const PricingCardFeatures = styled.ul`
