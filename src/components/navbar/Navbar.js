@@ -7,6 +7,7 @@ import {
   Nav,
   NavbarContainer,
   NavLogo,
+  Imglogo,
   MobileIcon,
   NavMenu,
   NavItem,
@@ -37,7 +38,7 @@ const Navbar = () => {
       <Nav>
         <NavbarContainer>
           <NavLogo to="/" onClick={closeMobileMenu}>
-            <img src={logo} alt="logo" />
+            <Imglogo src={logo} alt="logo" />
           </NavLogo>
           <MobileIcon onClick={handleClick}>
             {click ? <FaTimes /> : <FaBars />}

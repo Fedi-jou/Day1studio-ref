@@ -30,7 +30,12 @@ export const NavLogo = styled(Link)`
   justify-self: flex-start;
   cursor: pointer;
 `;
-
+export const Imglogo = styled.img`
+  @media screen and (max-width: 620px) {
+    height: 100%;
+    width: 50vw;
+  }
+`;
 export const MobileIcon = styled.div`
   display: none;
   @media screen and (max-width: 960px) {
