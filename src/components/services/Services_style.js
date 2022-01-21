@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-export const PricingSection = styled.div`
+export const ServicesSection = styled.div`
   padding: 100px 0 160px;
   display: flex;
   flex-direction: column;
@@ -9,7 +9,7 @@ export const PricingSection = styled.div`
   background: #4b59f7;
 `;
 
-export const PricingWrapper = styled.div`
+export const ServicesWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,7 +23,7 @@ export const PricingWrapper = styled.div`
   }
 `;
 
-export const PricingHeading = styled.h1`
+export const ServicesHeading = styled.h1`
   color: #fff;
   font-size: 48px;
   margin-bottom: 24px;
@@ -32,7 +32,7 @@ export const PricingHeading = styled.h1`
   }
 `;
 
-export const PricingContainer = styled.div`
+export const ServicesContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,7 +46,7 @@ export const PricingContainer = styled.div`
   }
 `;
 
-export const PricingCard = styled(Link)`
+export const ServicesCard = styled(Link)`
   background: #242424;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
   width: 280px;
@@ -73,7 +73,7 @@ export const PricingCard = styled(Link)`
   }
 `;
 
-export const PricingCardInfo = styled.div`
+export const ServicesCardInfo = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -83,11 +83,11 @@ export const PricingCardInfo = styled.div`
   color: #fff;
 `;
 
-export const PricingCardIcon = styled.div`
+export const ServicesCardIcon = styled.div`
   margin: 24px 0;
 `;
 
-export const PricingCardPlan = styled.h3`
+export const ServicesCardPlan = styled.h3`
   margin-bottom: 5px;
   font-size: 24px;
   @media screen and (max-width: 350px) {
@@ -96,7 +96,7 @@ export const PricingCardPlan = styled.h3`
   }
 `;
 
-export const PricingCardCost = styled.h4`
+export const ServicesCardCost = styled.h4`
   font-size: 40px;
   @media screen and (max-width: 350px) {
     font-size: 1rem;
@@ -104,7 +104,7 @@ export const PricingCardCost = styled.h4`
   }
 `;
 
-export const PricingCardLength = styled.p`
+export const ServicesCardLength = styled.p`
   font-size: 14px;
   margin-bottom: 24px;
   @media screen and (max-width: 350px) {
@@ -113,7 +113,7 @@ export const PricingCardLength = styled.p`
   }
 `;
 
-export const PricingCardFeatures = styled.ul`
+export const ServicesCardFeatures = styled.ul`
   margin: 16px 0 32px;
   list-style: none;
   display: flex;
@@ -122,6 +122,6 @@ export const PricingCardFeatures = styled.ul`
   color: #a9b3c1;
 `;
 
-export const PricingCardFeature = styled.li`
+export const ServicesCardFeature = styled.li`
   margin-bottom: 10px;
 `;

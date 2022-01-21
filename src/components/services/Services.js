@@ -4,73 +4,77 @@ import { GiCrystalBars } from "react-icons/gi";
 import { GiConsoleController, GiTeamIdea } from "react-icons/gi";
 import { IconContext } from "react-icons/lib";
 import {
-  PricingSection,
-  PricingWrapper,
-  PricingHeading,
-  PricingContainer,
-  PricingCard,
-  PricingCardInfo,
-  PricingCardIcon,
-  PricingCardPlan,
-  PricingCardFeatures,
-  PricingCardFeature,
+  ServicesSection,
+  ServicesWrapper,
+  ServicesHeading,
+  ServicesContainer,
+  ServicesCard,
+  ServicesCardInfo,
+  ServicesCardIcon,
+  ServicesCardPlan,
+  ServicesCardFeatures,
+  ServicesCardFeature,
 } from "./Services_style";
 
 function Services() {
   return (
     <IconContext.Provider value={{ color: "#a9b3c1", size: 64 }}>
-      <PricingSection>
-        <PricingWrapper>
-          <PricingHeading>Our Services</PricingHeading>
-          <PricingContainer>
-            <PricingCard to="/sign-up">
-              <PricingCardInfo>
-                <PricingCardIcon>
+      <ServicesSection>
+        <ServicesWrapper>
+          <ServicesHeading>Our Services</ServicesHeading>
+          <ServicesContainer>
+            <ServicesCard to="/sign-up">
+              <ServicesCardInfo>
+                <ServicesCardIcon>
                   <GiConsoleController />
-                </PricingCardIcon>
-                <PricingCardPlan>Game Development</PricingCardPlan>
-                <PricingCardFeatures>
-                  <PricingCardFeature>
+                </ServicesCardIcon>
+                <ServicesCardPlan>Game Development</ServicesCardPlan>
+                <ServicesCardFeatures>
+                  <ServicesCardFeature>
                     Videogames are our passion
-                  </PricingCardFeature>
-                  <PricingCardFeature>
+                  </ServicesCardFeature>
+                  <ServicesCardFeature>
                     We can build a fantastic world
-                  </PricingCardFeature>
-                  <PricingCardFeature>Just for you</PricingCardFeature>
-                </PricingCardFeatures>
-              </PricingCardInfo>
-            </PricingCard>
-            <PricingCard to="/sign-up">
-              <PricingCardInfo>
-                <PricingCardIcon>
+                  </ServicesCardFeature>
+                  <ServicesCardFeature>Just for you</ServicesCardFeature>
+                </ServicesCardFeatures>
+              </ServicesCardInfo>
+            </ServicesCard>
+            <ServicesCard to="/sign-up">
+              <ServicesCardInfo>
+                <ServicesCardIcon>
                   <GiCrystalBars />
-                </PricingCardIcon>
-                <PricingCardPlan>GAME PORTING</PricingCardPlan>
-                <PricingCardFeatures>
-                  <PricingCardFeature>Want to see your game</PricingCardFeature>
-                  <PricingCardFeature>on consoles ?</PricingCardFeature>
-                  <PricingCardFeature>We can make it real</PricingCardFeature>
-                  <PricingCardFeature>on any platform.</PricingCardFeature>
-                </PricingCardFeatures>
-              </PricingCardInfo>
-            </PricingCard>
-            <PricingCard to="/sign-up">
-              <PricingCardInfo>
-                <PricingCardIcon>
+                </ServicesCardIcon>
+                <ServicesCardPlan>GAME PORTING</ServicesCardPlan>
+                <ServicesCardFeatures>
+                  <ServicesCardFeature>
+                    Want to see your game
+                  </ServicesCardFeature>
+                  <ServicesCardFeature>on consoles ?</ServicesCardFeature>
+                  <ServicesCardFeature>We can make it real</ServicesCardFeature>
+                  <ServicesCardFeature>on any platform.</ServicesCardFeature>
+                </ServicesCardFeatures>
+              </ServicesCardInfo>
+            </ServicesCard>
+            <ServicesCard to="/sign-up">
+              <ServicesCardInfo>
+                <ServicesCardIcon>
                   <GiTeamIdea />
-                </PricingCardIcon>
-                <PricingCardPlan>ASSISTANCE</PricingCardPlan>
-                <PricingCardFeatures>
-                  <PricingCardFeature>Need anything else ?</PricingCardFeature>
-                  <PricingCardFeature>We will put our</PricingCardFeature>
-                  <PricingCardFeature>heart and soul</PricingCardFeature>
-                  <PricingCardFeature>into any project</PricingCardFeature>
-                </PricingCardFeatures>
-              </PricingCardInfo>
-            </PricingCard>
-          </PricingContainer>
-        </PricingWrapper>
-      </PricingSection>
+                </ServicesCardIcon>
+                <ServicesCardPlan>ASSISTANCE</ServicesCardPlan>
+                <ServicesCardFeatures>
+                  <ServicesCardFeature>
+                    Need anything else ?
+                  </ServicesCardFeature>
+                  <ServicesCardFeature>We will put our</ServicesCardFeature>
+                  <ServicesCardFeature>heart and soul</ServicesCardFeature>
+                  <ServicesCardFeature>into any project</ServicesCardFeature>
+                </ServicesCardFeatures>
+              </ServicesCardInfo>
+            </ServicesCard>
+          </ServicesContainer>
+        </ServicesWrapper>
+      </ServicesSection>
     </IconContext.Provider>
   );
 }
