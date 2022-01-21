@@ -1,31 +1,34 @@
 import styled from "styled-components";
 
 export const Contactwrapper = styled.div`
-  height: 100vh;
+  min-height: 100vh;
   padding: 50px 100px;
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   background: linear-gradient(326deg, #101522 0%, #010606 74%);
   color: white;
+  postion: absolute;
+  @media screen and (max-width: 585px) {
+    flex-direction: column;
+    padding: 50px 50px;
+  }
 `;
 
 export const Contacttitle = styled.div`
   text-align: center;
   color: white;
+  postion: relative;
+  padding: 200px;
 `;
 
 export const Contactcontainer = styled.div`
   width: 100%;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-`; // u can take it off
+`;
 
 export const Infocontainer = styled.div`
   color: white;
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -34,7 +37,7 @@ export const Infocontainer = styled.div`
 
 export const Formcontainer = styled.div`
   color: white;
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   background: transparent;
@@ -42,7 +45,7 @@ export const Formcontainer = styled.div`
 
 export const Inputwrapper = styled.div`
   position: relative;
-  margin-bottom: 30px;
+  margin: 30px 0px;
 `;
 export const Inputbox = styled.input`
   background: transparent;

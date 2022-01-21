@@ -6,7 +6,6 @@ import { HiOutlineMail } from "react-icons/hi";
 import {
   Buttonsubmit,
   Contactcontainer,
-  Contacttitle,
   Contactwrapper,
   Formcontainer,
   Infocontainer,
@@ -20,7 +19,6 @@ const Contact1 = () => {
     <>
       <IconContext.Provider value={{ color: "#fff", size: "2.5rem" }}>
         <Contactwrapper>
-          {/* <Contacttitle>Contact Us</Contacttitle> */}
           <Contactcontainer>
             <Infocontainer>
               <FiPhoneIncoming />
