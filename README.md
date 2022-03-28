@@ -1,3 +1,11 @@
+# Day 1 Studio website 
+## Packages used : 
+1. react-icons
+2. react-router-dom 
+3. react-scroll
+4. styled-components
+5. typewriter-effect
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
